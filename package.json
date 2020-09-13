@@ -1,0 +1,16 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A weather app built for a practice project",
+  "main": "home.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahmatullaah Ibraheem",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qahwah/repository.git"
+  }
+}
