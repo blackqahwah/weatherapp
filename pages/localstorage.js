@@ -24,5 +24,5 @@ const lemo = {
 
 window.addEventListener('DOMContentLoaded', lemo.load);
 
-// const keys = Object.keys(localStorage);
-// console.log(keys);
+const keys = Object.keys(localStorage);
+console.log(keys);
