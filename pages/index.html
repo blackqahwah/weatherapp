@@ -16,9 +16,9 @@
  <title>Weatherer</title>
 </head>
 
-<body onload="demo.fetchCurrent();">
+<body>
    <header class="container-fluid">
-<nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top bg-dark">
  <a class="navbar-brand" href="../pages/index.html">Smash It Weather App for NYC</a>
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,28 +28,23 @@
  <div class="collapse navbar-collapse" id="navbarSupportedContent">
    <ul class="navbar-nav mr-auto">
      
-     <div class="has-text-centered">
-      <button class="button is-info" onclick="demo.fetchCurrent();">
-       NYC weather now
-       </button>
-    </div> 
    </ul>
 
    <form class="form-inline my-2 my-lg-0">
     <input class="form-control mr-sm-2" id="searchbox" type="search" placeholder="Enter a city" aria-label="Search" onkeyup="lemo.setAndBind(event);">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="demo.fetchCurrent();">Search</button>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
 
  </div>
 </nav>
 </header>
+
+<div id="weather-content" class="row mt-3">
+
+            
         
-<div class="container-fluid">
-  <div class="row">
-<section class="col-sm-10">
-  <div id="message" class="message-box col-sm-12"></div>
-</section>
-  </div>
+
+
 </div>
 
 
