@@ -4,7 +4,6 @@ const urlsToCache = [
     
     '/pages/index.html',
     
-    
     '/pages/bootstrap-4.5.2-dist/css/app.css',
     '/pages/bootstrap-4.5.2-dist/css/bootstrap.css',
     '/pages/bootstrap-4.5.2-dist/css/bootstrap.min.css',
